@@ -16,9 +16,10 @@ Below are full install + usage steps.
 - Python 3.10+ installed and added to PATH
 
 ### Install Python packages
-Open PowerShell in the bundle root and run:
+Open PowerShell in the bundle root (right click in folder and select 'Open in Terminal' and run:
 
 ```powershell
+powershell
 python -m pip install --upgrade pip
 python -m pip install PySide6 pandas
 ```
