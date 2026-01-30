@@ -1,0 +1,9 @@
+﻿{
+  "name": "com.simcompanies.csv_helper",
+  "description": "SimCompanies CSV native helper",
+  "path": "C:\\Users\\lokic\\C Programs\\GUI\\simcompanies\\simcompanies-native-helper\\host.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://agohhbfbejkhgcmdicjlddaclhmaimfc/"
+  ]
+}

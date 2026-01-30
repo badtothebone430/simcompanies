@@ -1,0 +1,64 @@
+﻿:root {
+  --simco-panel-bg: rgba(18, 22, 32, 0.92);
+  --simco-panel-border: rgba(42, 49, 66, 0.9);
+  --simco-panel-text: #e6e6e6;
+  --simco-panel-muted: #aab2c0;
+  --simco-accent: #22c55e;
+}
+
+#simco-csv-panel {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 99999;
+  background: var(--simco-panel-bg);
+  color: var(--simco-panel-text);
+  border: 1px solid var(--simco-panel-border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  min-width: 240px;
+}
+
+#simco-csv-panel h4 {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#simco-csv-panel .simco-meta {
+  font-size: 12px;
+  color: var(--simco-panel-muted);
+  margin-bottom: 10px;
+}
+
+#simco-csv-panel button {
+  background: #1b2130;
+  border: 1px solid #2a3142;
+  color: var(--simco-panel-text);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 8px;
+}
+
+#simco-csv-panel button:hover {
+  background: #222a3c;
+}
+
+#simco-csv-panel .simco-status {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--simco-panel-muted);
+}
+
+#simco-csv-panel .simco-ok {
+  color: var(--simco-accent);
+}
+
+#simco-csv-panel .simco-error {
+  color: #ef4444;
+}

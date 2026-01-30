@@ -1,0 +1,22 @@
+﻿{
+  "manifest_version": 3,
+  "name": "SimCompanies CSV Helper",
+  "version": "0.2.0",
+  "description": "Fetches SimCompanies CSVs and saves them into a chosen folder.",
+  "permissions": [
+    "storage",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "https://www.simcompanies.com/*",
+    "https://api.simcotools.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "SimCompanies CSV",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}

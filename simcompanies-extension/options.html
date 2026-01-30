@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SimCompanies CSV Helper Options</title>
+    <style>
+      body {
+        font-family: "Segoe UI", system-ui, sans-serif;
+        padding: 16px;
+        max-width: 520px;
+      }
+      .row { margin-bottom: 10px; }
+      .label { font-weight: 600; margin-bottom: 6px; }
+      .path {
+        padding: 8px 10px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        background: #f8fafc;
+        word-break: break-all;
+      }
+      button {
+        margin-right: 8px;
+        margin-top: 8px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid #cbd5e1;
+        background: #0f172a;
+        color: #fff;
+        cursor: pointer;
+      }
+      .secondary { background: #334155; }
+      .status { margin-top: 8px; font-size: 12px; }
+      .hint { font-size: 12px; color: #64748b; }
+    </style>
+  </head>
+  <body>
+    <h2>CSV Target Folder</h2>
+    <div class="row">
+      <div class="label">Current folder</div>
+      <div id="path" class="path">Not set</div>
+      <div class="hint">This uses a native helper to write anywhere on disk.</div>
+    </div>
+    <div class="row">
+      <button id="pick">Choose Folder</button>
+      <button id="clear" class="secondary">Clear</button>
+    </div>
+    <div class="status" id="status"></div>
+    <script src="options.js"></script>
+  </body>
+</html>
